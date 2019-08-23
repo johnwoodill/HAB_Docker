@@ -7,9 +7,9 @@ LABEL maintainer="A. John Woodill <johnwoodill@gmail.com>"
 RUN apt-get -y update
 RUN apt-get -y upgrade
 
-#RUN apt-get -y install git python3 python3-pip
+RUN apt-get -y install git python3 python3-pip
 
-#RUN pip3 install matplotlib==3.0.2 numpy==1.14.2 openpyxl==2.6.0 pandas==0.22.0 pymc3==3.5 seaborn==0.9.0 Theano==1.0.3
+RUN pip3 install matplotlib==3.0.2 numpy==1.14.2 openpyxl==2.6.0 pandas==0.22.0 pymc3==3.5 seaborn==0.9.0 Theano==1.0.3
 
 #CMD /bin/bash
 
