@@ -7,6 +7,8 @@ LABEL maintainer="A. John Woodill <johnwoodill@gmail.com>"
 RUN apt-get update -y
 RUN apt-get upgrade -y
 
+RUN apt-get install git
+
 #RUN apt-get install git python3 pip
 
 # Setup EPEL
