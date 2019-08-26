@@ -70,3 +70,4 @@ RUN pip3 install matplotlib==3.0.2 numpy==1.14.2 openpyxl==2.6.0 pandas==0.22.0 
 # Run a shell script
 #CMD  ["./run_jupyter.sh"]
 
+CMD ["/bin/bash"]
